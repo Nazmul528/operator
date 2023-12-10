@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int num1,num2,tem;
+    printf("enter the num1 and num2 ");
+    scanf("%d %d",&num1,&num2);
+    tem=num1;
+    num1=num2;
+    num2=tem;
+    printf("Enter the num1 :%d\n",num1);
+    printf("Enter the num2 :%d",num2);
+
+}
