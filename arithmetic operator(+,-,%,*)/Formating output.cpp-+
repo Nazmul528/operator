@@ -1,0 +1,30 @@
+//formating output
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float num1,num2;
+    cout<<"Enter the two number :";
+    cin>>num1>>num2;
+    
+    cout<<showpoint;//dosomic dekhanor jonno
+    cout << fixed << endl; //dosomik AR por koto ghor asbe ta fixe kore dei
+    cout << setprecision(2) << endl;//dosomik Soho koto ghor dekhabe ta
+    float sum =num1+num2;
+    cout<<setw(35) << "the sum two number :"<<sum<<endl;
+    
+    float sub =num1-num2;
+    cout<<setw(35) << "the sub two number :"<<sub<<endl;
+
+    cout<<noshowpoint;//dosomik na dekhanor jonno
+    float mul =num1*num2;
+    cout<<setw(35) << "the multiplication two number :"<<mul<<endl;
+    double div =(float)num1/num2;
+    cout <<setw(35)<< "the divition two number :"<<div<<endl;
+
+    /* int rem =num1%num2;
+     cout << "the remainder two number :"<<rem<<endl;*/
+
+
+}
